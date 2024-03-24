@@ -1,0 +1,10 @@
+^C:\USERS\GIULI\ONEDRIVE\DESKTOP\CV\COMPUTERVISION\LAB 2\TASK6\BUILD\CMAKEFILES\75CECD5FFA11C7A5E6F82648FC8AC30B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/giuli/OneDrive/Desktop/CV/ComputerVision/Lab 2/Task6" "-BC:/Users/giuli/OneDrive/Desktop/CV/ComputerVision/Lab 2/Task6/build" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/giuli/OneDrive/Desktop/CV/ComputerVision/Lab 2/Task6/build/Task6.sln"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

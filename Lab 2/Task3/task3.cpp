@@ -3,7 +3,6 @@
 #include <opencv2/imgproc.hpp>
 #include "ImageFilters.h"
 
-
 int main(int argc, char **argv)
 {
 	// input image
@@ -26,16 +25,12 @@ int main(int argc, char **argv)
 		return -1;
 	}
 
-	cv::Mat maxImg;
-	cv::Mat minImg;
-	
-	min_filter(img, minImg, ksize);
-	cv::namedWindow("Min filter");
-	cv::imshow("Min filter", minImg);
+	cv::Mat medianImg;
 
-	max_filter(img, maxImg, ksize);
-	cv::namedWindow("Max filter");
-	cv::imshow("Max filter", maxImg);
+	
+	median_filter(img, medianImg, ksize);
+	cv::namedWindow("Median filter");
+	cv::imshow("Median filter", medianImg);
 	cv::waitKey(0);
 	cv::destroyAllWindows();
 

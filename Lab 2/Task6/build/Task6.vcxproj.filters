@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\giuli\OneDrive\Desktop\CV\ComputerVision\Lab 2\Task6\task6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\giuli\OneDrive\Desktop\CV\ComputerVision\Lab 2\Task6\ImageFilters.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\giuli\OneDrive\Desktop\CV\ComputerVision\Lab 2\Task6\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{426B592A-1ADB-325A-9FD7-9C9AA19D525D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

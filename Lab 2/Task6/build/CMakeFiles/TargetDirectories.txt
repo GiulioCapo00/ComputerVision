@@ -1,0 +1,3 @@
+C:/Users/giuli/OneDrive/Desktop/CV/ComputerVision/Lab 2/Task6/build/CMakeFiles/Task6.dir
+C:/Users/giuli/OneDrive/Desktop/CV/ComputerVision/Lab 2/Task6/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/giuli/OneDrive/Desktop/CV/ComputerVision/Lab 2/Task6/build/CMakeFiles/ZERO_CHECK.dir
