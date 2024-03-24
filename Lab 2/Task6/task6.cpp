@@ -27,7 +27,7 @@ int main(int argc, char **argv)
 
     cv::namedWindow("Equalized image");
     cv::imshow("Equalized image", equalized_img);
-    cv::imwrite("equalized_img.jpg", equalized_img);
+    cv::imwrite("../Images/Equalized_img.jpg", equalized_img);
 
     
     int hSize = 256;
