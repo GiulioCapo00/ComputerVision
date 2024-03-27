@@ -7,7 +7,7 @@
 int main(int argc, char **argv)
 {
 	// input image
-	cv::Mat img = cv::imread("../Images/Garden_grayscale.jpg", 0);
+	cv::Mat img = cv::imread("../Images/Garden_grayscale.jpg",cv::IMREAD_COLOR);
 	if(img.data==NULL) {
 		printf("Image not found!\n");
 		return 1;
